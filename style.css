@@ -1,0 +1,190 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #f00;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #bbb;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+/* Game cards */
+.game-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+.game-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.game-card h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #f00;
+}
+
+.game-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.game-card button {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.game-card button:hover {
+    background-color: #cc0000;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #cc0000;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    padding: 40px;
+}
+
+.social-media h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.5em;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #f00;
+}
+
+/* Specific styles for each social media platform */
+.facebook-icon {
+    background-color: #3b5998; /* Facebook blue */
+}
+
+.twitter-icon {
+    background-color: #00acee; /* Twitter blue */
+}
+
+.instagram-icon {
+    background-color: #e1306c; /* Instagram pink */
+}
